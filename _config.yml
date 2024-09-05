@@ -2,10 +2,18 @@ url: https://y7kim.github.io
 baseurl: /
 
 # Site settings
-title: Awesome Title
+title: Computing Vista
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Logo
+logo:
+  mobile: "img/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "img/logo/logo.svg"
+  desktop_height: "32px"
+  desktop_width: "120px"
 
 # Team names, titles and social links
 people:

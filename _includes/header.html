@@ -9,7 +9,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="{{ site.logo.mobile }}" alt="{{ site.title }}" height="{{ site.logo.mobile_height }}" width="{{ site.logo.mobile_width }}" class="logo-mobile">
+                    <img src="{{ site.logo.desktop }}" alt="{{ site.title }}" height="{{ site.logo.desktop_height }}" width="{{ site.logo.desktop_width }}" class="logo-desktop">
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
