@@ -254,8 +254,11 @@ fieldset[disabled] .btn-xl.active {
         height: 5px; // Specific height for mobile devices
     }
     .navbar-collapse {
-        width: 300px; /* adjust this value to your desired width */
+        width: 400px; /* adjust this value to your desired width */
     }
+    .navbar-collapse ul {
+        text-align: center;
+    }    
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -886,8 +889,11 @@ body {
         height: 5px;
     }
     .navbar-collapse {
-    width: 300px; /* adjust this value to your desired width */
-    }          
+    width: 400px; /* adjust this value to your desired width */
+    }
+    .navbar-collapse ul {
+        text-align: center;
+    }            
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
         padding-bottom: 20px;
