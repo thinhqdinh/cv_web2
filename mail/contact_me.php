@@ -16,7 +16,7 @@ $phone = $_POST['company'];
 $message = $_POST['message'];
 
 // Set the API endpoint and your email address
-$api_endpoint = 'https://formsubmit.co/your@email.com';
+$api_endpoint = 'https://formsubmit.co/info@computingvista.com';
 $api_key = ''; // Leave this blank if you don't have an API key
 
 // Set the POST data
