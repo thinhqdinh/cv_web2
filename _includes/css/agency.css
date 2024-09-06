@@ -876,7 +876,7 @@ body {
         padding-bottom: 20px;
     }
     .navbar {
-        min-height: 50px; /* reduce height for mobile */
+        min-height: 25px; /* reduce height for mobile */
         margin-bottom: 0;
     }        
 }
