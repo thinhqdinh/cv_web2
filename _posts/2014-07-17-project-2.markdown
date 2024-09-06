@@ -1,11 +1,11 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Demand Planning
+subtitle: Dự báo cung cầu, lên kế hoạch sản xuất, tối ưu chuỗi cung ứng, ...
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: demand_planning.png
+thumbnail: demand_planning.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

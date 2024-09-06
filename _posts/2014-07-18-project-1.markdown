@@ -1,5 +1,5 @@
 ---
-title: Workforce Planning
+title: Workforce Scheduling
 subtitle: Xếp ca làm việc, phân công nhân viên, sắp xếp lịch học, lịch khám chữa bệnh, ...
 layout: default
 modal-id: 1
