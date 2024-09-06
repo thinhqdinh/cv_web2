@@ -257,11 +257,13 @@ fieldset[disabled] .btn-xl.active {
         width: 380px; /* adjust this value to your desired width */
     }
     .navbar-collapse ul {
+        display: flex;
+        justify-content: center;
+      }
+      .navbar-collapse li {
+        flex: 1;
         text-align: center;
-    }   
-    .navbar-collapse li {
-        display: inline-block;
-    }     
+      }  
     .navbar-default .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
@@ -895,11 +897,13 @@ body {
     width: 380px; /* adjust this value to your desired width */
     }
     .navbar-collapse ul {
+        display: flex;
+        justify-content: center;
+      }
+      .navbar-collapse li {
+        flex: 1;
         text-align: center;
-    }
-    .navbar-collapse li {
-        display: inline-block;
-    }               
+      }              
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
         padding-bottom: 20px;
