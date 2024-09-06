@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
         height: 5px; // Specific height for mobile devices
     }
     .navbar-collapse {
-        width: 400px; /* adjust this value to your desired width */
+        width: 380px; /* adjust this value to your desired width */
     }
     .navbar-collapse ul {
         text-align: center;
@@ -893,7 +893,7 @@ body {
         height: 5px;
     }
     .navbar-collapse {
-    width: 400px; /* adjust this value to your desired width */
+    width: 380px; /* adjust this value to your desired width */
     }
     .navbar-collapse ul {
         text-align: center;
