@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: "/"
+baseurl: /
 
 # Site settings
 title: Computing Vista
@@ -8,10 +8,10 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Logo
 logo:
-  mobile: "img/logo/logo-mobile.svg"
+  mobile: "/img/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "img/logo/logo.svg"
+  desktop: "/img/logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "120px"
 
