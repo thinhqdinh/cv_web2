@@ -869,14 +869,10 @@ body {
 
 @media only screen and (max-width: 768px) {
     .logo-mobile {
-      width: 180px;
+      height: 40px;
     }
     header .intro-text {
         padding-top: 40px; /* increase padding-top for mobile */
         padding-bottom: 20px;
-    }
-    .navbar {
-        min-height: 25px; /* reduce height for mobile */
-        margin-bottom: 0;
-    }        
+    }    
 }
