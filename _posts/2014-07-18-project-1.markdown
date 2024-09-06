@@ -1,10 +1,10 @@
 ---
 title: Workforce Planning
-subtitle: Xếp ca làm việc, phân công nhân viên, sắp xếp lịch học, lịch họp, lịch khám chữa bệnh, ...
+subtitle: Xếp ca làm việc, phân công nhân viên, sắp xếp lịch học, lịch khám chữa bệnh, ...
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
+img: workforce_planning.png
 thumbnail: workforce_planning.png
 alt: image-alt
 project-date: April 2014
