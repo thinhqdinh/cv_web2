@@ -2,7 +2,7 @@
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
-   empty($_POST['phone']) 		||
+   empty($_POST['company']) 		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
@@ -12,15 +12,46 @@ if(empty($_POST['name'])  		||
 
 $name = $_POST['name'];
 $email_address = $_POST['email'];
-$phone = $_POST['phone'];
+$phone = $_POST['company'];
 $message = $_POST['message'];
 
-// Create the email and send the message
-$to = 'jerome.lachaud@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";
-mail($to,$email_subject,$email_body,$headers);
-return true;
+// Set the API endpoint and your email address
+$api_endpoint = 'https://formsubmit.co/your@email.com';
+$api_key = ''; // Leave this blank if you don't have an API key
+
+// Set the POST data
+$post_data = array(
+	'name' => $name,
+	'email' => $email_address,
+	'company' => $phone,
+	'message' => $message
+);
+
+// Set the headers
+$headers = array(
+	'Content-Type: application/json',
+	'Accept: application/json'
+);
+
+// Initialize the curl session
+$ch = curl_init($api_endpoint);
+
+// Set the curl options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data));
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+// Execute the curl session
+$response = curl_exec($ch);
+
+// Close the curl session
+curl_close($ch);
+
+// Check the response
+if ($response === false) {
+	echo 'Error: ' . curl_error($ch);
+} else {
+	echo 'Message sent successfully!';
+}
 ?>
