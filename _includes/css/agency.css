@@ -251,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
         float: left;
     }
     .navbar-custom {
-        height: 25px; // Specific height for mobile devices
+        height: 18px; // Specific height for mobile devices
     }
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -880,7 +880,7 @@ body {
       width: 200px;
     }
     .navbar-custom {
-        height: 25px;
+        height: 18px;
       }    
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
