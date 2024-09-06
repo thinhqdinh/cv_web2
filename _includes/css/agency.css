@@ -866,3 +866,9 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+@media only screen and (max-width: 768px) {
+    .logo-mobile {
+      width: 90px;
+    }
+  }
