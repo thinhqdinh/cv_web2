@@ -212,9 +212,9 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #000;
-    -webkit-transition: all ease .1s;
-    -moz-transition: all ease .1s;
-    transition: all ease .1s;
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
 }
 
 .navbar-default .nav li a:hover,
@@ -231,8 +231,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    outline: none;
 }
 
 // Add this new class
