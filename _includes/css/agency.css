@@ -260,8 +260,7 @@ fieldset[disabled] .btn-xl.active {
         text-align: center;
     }   
     .navbar-collapse li {
-        flex: 1;
-        text-align: center;
+        display: inline-block;
     }     
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -899,9 +898,8 @@ body {
         text-align: center;
     }
     .navbar-collapse li {
-        flex: 1;
-        text-align: center;
-    }                
+        display: inline-block;
+    }               
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
         padding-bottom: 20px;
