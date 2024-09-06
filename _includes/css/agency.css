@@ -870,8 +870,11 @@ body {
 @media only screen and (max-width: 768px) {
     .logo-mobile {
       height: auto;
-      width: 120px;
+      width: 200px;
     }
+    .navbar-custom {
+        height: 40px;
+      }    
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
         padding-bottom: 20px;
