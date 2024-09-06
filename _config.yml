@@ -12,8 +12,8 @@ logo:
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "/img/web_logo/logo.svg"
-  desktop_height: "54px"
-  desktop_width: "360px"
+  desktop_height: "50px"
+  desktop_width: "320px"
 
 # Team names, titles and social links
 people:
