@@ -259,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
         background-color: #FFFFFF !important;
     }
 
@@ -870,7 +870,7 @@ body {
 @media only screen and (max-width: 768px) {
     .logo-mobile {
       height: 22px;
-      width: 120px;
+      width: auto;
     }
     header .intro-text {
         padding-top: 40px; /* increase padding-top for mobile */
