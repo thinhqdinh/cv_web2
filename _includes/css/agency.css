@@ -280,12 +280,12 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 40px;
@@ -294,9 +294,9 @@ header .intro-text .intro-heading {
 }
 
 header .intro-text .intro-subheading {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     line-height: 22px;
 }
@@ -308,10 +308,9 @@ header .intro-text .intro-subheading {
     }
 
     header .intro-text .intro-subheading {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 25px;
-        font-style: italic;
+        font-size: 20px;
         line-height: 40px;
     }
 
