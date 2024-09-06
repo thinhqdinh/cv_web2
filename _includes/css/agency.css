@@ -869,7 +869,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .logo-mobile {
-      height: 28px;
+      height: 18px;
     }
     header .intro-text {
         padding-top: 40px; /* increase padding-top for mobile */
