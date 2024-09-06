@@ -8,10 +8,10 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Logo
 logo:
-  mobile: "/img/logo/logo-mobile.svg"
+  mobile: "/img/web_logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "/img/logo/logo.svg"
+  desktop: "/img/web_logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "120px"
 
