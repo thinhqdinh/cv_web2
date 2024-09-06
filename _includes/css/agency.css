@@ -871,7 +871,12 @@ body {
     .logo-mobile {
       width: 180px;
     }
-    .navbar-nav {
-        padding-top: 50px;
+    header .intro-text {
+        padding-top: 40px; /* increase padding-top for mobile */
+        padding-bottom: 20px;
     }
+    .navbar {
+        min-height: 50px; /* reduce height for mobile */
+        margin-bottom: 0;
+    }        
 }
