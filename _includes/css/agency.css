@@ -240,15 +240,16 @@ fieldset[disabled] .btn-xl.active {
     height: 60px; // Default height for larger screens
 }
 
-@media(min-width:768px) {
+@media(max-width:767px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #FFFFFF;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-
+        float: left;
+    }
     .navbar-custom {
         height: 5px; // Specific height for mobile devices
     }
