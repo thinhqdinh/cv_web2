@@ -299,7 +299,6 @@ header .intro-text .intro-subheading {
     margin-bottom: 20px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 20px;
-    font-style: italic;
     line-height: 22px;
 }
 
