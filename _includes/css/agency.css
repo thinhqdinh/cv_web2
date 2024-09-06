@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
         height: 5px; // Specific height for mobile devices
     }
     .navbar-collapse {
-        width: 250px; /* adjust this value to your desired width */
+        width: 150px; /* adjust this value to your desired width */
     }
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -886,7 +886,7 @@ body {
         height: 5px;
     }
     .navbar-collapse {
-    width: 250px; /* adjust this value to your desired width */
+    width: 150px; /* adjust this value to your desired width */
     }          
     header .intro-text {
         padding-top: 20px; /* increase padding-top for mobile */
