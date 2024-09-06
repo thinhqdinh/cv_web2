@@ -237,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
 
 // Add this new class
 .navbar-custom {
-    height: 70px; // Default height for larger screens
+    height: 60px; // Default height for larger screens
 }
 
 @media(max-width:767px) {
