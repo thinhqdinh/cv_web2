@@ -237,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 5px 0;
+        padding: 0px 0;
         border: 0;
         background-color: #FFFFFF;
         -webkit-transition: padding .3s;
@@ -869,11 +869,11 @@ body {
 
 @media only screen and (max-width: 768px) {
     .logo-mobile {
-      height: 22px;
-      width: auto;
+      height: auto;
+      width: 120px;
     }
     header .intro-text {
-        padding-top: 40px; /* increase padding-top for mobile */
+        padding-top: 20px; /* increase padding-top for mobile */
         padding-bottom: 20px;
     }    
 }
