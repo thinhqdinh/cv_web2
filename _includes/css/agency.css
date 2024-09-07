@@ -437,6 +437,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
+    margin-top: 5px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
