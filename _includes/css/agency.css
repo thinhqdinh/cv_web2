@@ -909,6 +909,7 @@ body {
     header .intro-text {
         padding-top: 75px; /* increase padding-top for mobile */
         padding-bottom: 20px;
+        text-align: justify;
     }
     header .intro-text .intro-subheading {
         margin-bottom: 20px;
