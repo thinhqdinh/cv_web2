@@ -907,7 +907,7 @@ body {
         text-align: center;
       }             
     header .intro-text {
-        padding-top: 65px; /* increase padding-top for mobile */
+        padding-top: 75px; /* increase padding-top for mobile */
         padding-bottom: 20px;
     }
     header .intro-text .intro-subheading {
@@ -921,7 +921,7 @@ body {
         margin-bottom: 25px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 700;
         line-height: 50px;
     }    
