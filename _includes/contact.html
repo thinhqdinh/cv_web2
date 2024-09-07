@@ -46,3 +46,15 @@
             </div>
         </div>
     </section>
+    <script>
+        const form = document.getElementById('contact-form');
+      
+        form.addEventListener('submit', (event) => {
+          event.preventDefault();
+          // Submit the form data to the server using AJAX or fetch API
+          // ...
+      
+          // Redirect the user to the success page
+          window.location.href = '/success';
+        });
+      </script>
