@@ -338,7 +338,7 @@ header .intro-text .intro-subheading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 32px;
+        font-size: 40px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -910,5 +910,20 @@ body {
     header .intro-text {
         padding-top: 65px; /* increase padding-top for mobile */
         padding-bottom: 20px;
+    }
+    header .intro-text .intro-subheading {
+        margin-bottom: 20px;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 75px;
     }    
 }
