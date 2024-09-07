@@ -1,15 +1,15 @@
 ---
 title: Workforce Scheduling
-subtitle: Xếp ca làm việc, phân công nhân viên, sắp xếp lịch học, lịch khám chữa bệnh, ...
+subtitle: Employee Shift Rostering, Comprehensive Academic Scheduling, Medical Appointment Arrangement, ...
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-07-18
 img: workforce_planning.png
 thumbnail: workforce_planning.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
