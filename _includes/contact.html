@@ -15,8 +15,6 @@
                         <!-- Disable Captcha -->
                         <input type="hidden" name="_captcha" value="false">
 
-                        <input type="hidden" name="_next" value="https://computingvista.com/success/">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="control-group form-group">
@@ -45,3 +43,24 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event){
+            event.preventDefault();  // Prevent the form from submitting the default way
+        
+            // Submit the form via AJAX
+            fetch("https://formsubmit.co/ajax/571ec1fc7441597566e4df2ac53f1d1c", {
+                method: "POST",
+                body: new FormData(this)
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Show the success message
+                document.getElementById("successMessage").style.display = "block";
+                
+                // Clear the form fields
+                document.getElementById("contactForm").reset();
+            })
+            .catch(error => console.log('Error:', error));
+        });
+    </script>
