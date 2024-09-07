@@ -15,8 +15,7 @@
                         <!-- Disable Captcha -->
                         <input type="hidden" name="_captcha" value="false">
 
-                        <!-- Go to Success Page -->
-                        <input type="hidden" name="success" value="{{ site.baseurl }}/success">
+                        <input type="hidden" name="_next" value="https://computingvista.com/success/">
 
                         <div class="row">
                             <div class="col-md-6">
@@ -46,15 +45,3 @@
             </div>
         </div>
     </section>
-    <script>
-        const form = document.getElementById('contact-form');
-      
-        form.addEventListener('submit', (event) => {
-          event.preventDefault();
-          // Submit the form data to the server using AJAX or fetch API
-          // ...
-      
-          // Redirect the user to the success page
-          window.location.href = '/success';
-        });
-      </script>
