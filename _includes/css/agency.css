@@ -915,7 +915,7 @@ body {
         margin-bottom: 20px;
         font-family: {{ site.data.template.font.primary }};
         font-size: 14px;
-        line-height: 40px;
+        line-height: 35px;
     }
 
     header .intro-text .intro-heading {
@@ -924,6 +924,6 @@ body {
         font-family: {{ site.data.template.font.primary }};
         font-size: 32px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 50px;
     }    
 }
