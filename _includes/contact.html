@@ -41,9 +41,14 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
 
-                <!-- Success message popup -->
-                <div id="successMessage" style="display:none; margin-top:20px;" class="alert alert-success">
-                    Thank you for your message! We will get back to you soon.
+                <!-- Messages container -->
+                <div id="messageContainer" style="display:none; margin-top:20px;">
+                    <div id="sendingMessage" style="display:none;" class="alert alert-info">
+                        Your message is sending...
+                    </div>
+                    <div id="successMessage" style="display:none;" class="alert alert-success">
+                        Thank you for your message! We will get back to you soon.
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,31 +56,38 @@
 </section>
 
 <script>
-    document.getElementById("contactForm").addEventListener("submit", function(event){
-        event.preventDefault();  // Prevent the form from submitting in the default way
-    
-        // Get the form data
-        const formData = new FormData(this);
-    
-        // Submit the form via fetch (AJAX)
-        fetch("https://formsubmit.co/ajax/571ec1fc7441597566e4df2ac53f1d1c", {
-            method: "POST",
-            body: formData
-        })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success === "true") {
-                // Immediately show the success message without delay
-                const successMessage = document.getElementById("successMessage");
-                successMessage.style.display = "block";
-                successMessage.style.opacity = 1;  // Ensure it's fully visible
-    
-                // Clear the form fields
-                document.getElementById("contactForm").reset();
-            } else {
-                console.log("Form submission failed: ", data);
-            }
-        })
-        .catch(error => console.log('Error:', error));
+document.getElementById("contactForm").addEventListener("submit", function(event){
+    event.preventDefault();  // Prevent the form from submitting in the default way
+
+    // Show "Sending..." message
+    document.getElementById("messageContainer").style.display = "block";
+    document.getElementById("sendingMessage").style.display = "block";
+
+    // Get the form data
+    const formData = new FormData(this);
+
+    // Submit the form via fetch (AJAX)
+    fetch("https://formsubmit.co/ajax/571ec1fc7441597566e4df2ac53f1d1c", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success === "true") {
+            // Hide "Sending..." message and show success message
+            document.getElementById("sendingMessage").style.display = "none";
+            document.getElementById("successMessage").style.display = "block";
+
+            // Clear the form fields
+            document.getElementById("contactForm").reset();
+        } else {
+            console.log("Form submission failed: ", data);
+            // Optionally handle failure case here
+        }
+    })
+    .catch(error => {
+        console.log('Error:', error);
+        // Optionally handle error case here
     });
+});
 </script>
