@@ -919,11 +919,11 @@ body {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 32px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 40px;
     }    
 }
