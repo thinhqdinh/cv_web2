@@ -16,7 +16,7 @@
                         <input type="hidden" name="_captcha" value="false">
 
                         <!-- Go to Success Page -->
-                        <input type="hidden" name="_next" value="{{"_includes/success.html" | prepend: site.baseurl}}">
+                        <input type="hidden" name="success" value="false">
 
                         <div class="row">
                             <div class="col-md-6">
@@ -42,6 +42,9 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                    {% if success == "true" %}
+                    {% include success.html %}
+                    {% endif %}
                 </div>
             </div>
         </div>
