@@ -653,7 +653,7 @@ section h3.section-subheading {
     }
 }
 
-.team {
+.team-section .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
