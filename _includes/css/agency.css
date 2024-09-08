@@ -653,11 +653,10 @@ section h3.section-subheading {
     }
 }
 
-.team-section .row{
+.team-section .row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center; /* Center the columns horizontally */
+    flex-wrap: wrap; /* Ensure wrapping of columns */
 }
 
 .team-member {
