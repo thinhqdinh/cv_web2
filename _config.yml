@@ -17,7 +17,7 @@ logo:
 
 # Team names, titles and social links
 people:
-- name: Dinh Quang Thinh, PhD
+- name: Steven Thinh Dinh, PhD
   pic: 1
   position: Founder & CTO
   experience: PhD in Computer Science, Best IEEE Transaction Award Winner
@@ -29,7 +29,7 @@ people:
   #   - title: stack-overflow
   #     url: #
 
-- name: Mai Thi Cam Ly
+- name: Mai Ly
   pic: 2
   position: Founder & CEO
   experience: BSc in Industrial Management, ex-Samsung Head of Strategy and Business Development
