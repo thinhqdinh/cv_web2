@@ -40,7 +40,7 @@
                     </div>
 
                     <!-- Cloudflare Turnstile CAPTCHA -->
-                    <div class="control-group form-group">
+                    <div class="control-group form-group center-block">
                         <div class="cf-turnstile" data-sitekey="0x4AAAAAAAjqMev0EbwPaism"></div>
                     </div>
 
@@ -65,6 +65,13 @@
 document.getElementById("contactForm").addEventListener("submit", function(event){
     event.preventDefault();  // Prevent the form from submitting in the default way
 
+    // Check if Turnstile CAPTCHA has been completed
+    const turnstileResponse = document.querySelector('.cf-turnstile [name="cf-turnstile-response"]').value;
+
+    if (!turnstileResponse) {
+        alert('Please verify you are human by completing the CAPTCHA.');
+        return; // Stop form submission
+    }    
     // Show "Sending..." message
     document.getElementById("messageContainer").style.display = "block";
     document.getElementById("sendingMessage").style.display = "block";
