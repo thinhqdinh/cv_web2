@@ -38,6 +38,12 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Cloudflare Turnstile CAPTCHA -->
+                    <div class="control-group form-group">
+                        <div class="cf-turnstile" data-sitekey="0x4AAAAAAAjqMev0EbwPaism"></div>
+                    </div>
+
                     <button type="submit" class="btn btn-primary center-block">Send Message</button>
                 </form>
 
@@ -91,3 +97,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     });
 });
 </script>
+
+<!-- Add Cloudflare Turnstile script -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
