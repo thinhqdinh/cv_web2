@@ -79,6 +79,9 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     // Get the form data
     const formData = new FormData(this);
 
+    // Remove the Turnstile CAPTCHA response from formData (so it's not sent in the email)
+    formData.delete("cf-turnstile-response");    
+
     // Submit the form via fetch (AJAX)
     fetch("https://formsubmit.co/ajax/571ec1fc7441597566e4df2ac53f1d1c", {
         method: "POST",
