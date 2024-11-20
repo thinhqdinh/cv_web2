@@ -1,6 +1,6 @@
 ---
-title: Workforce Scheduling
-subtitle: Employee Shift Rostering, Class Scheduling, Medical Appointment Arrangement, ...
+title: In-flight Telehealth
+subtitle: Medical Consultations, Travel Health Advisory, Wellness Guidance, ...
 layout: default
 modal-id: 1
 date: 2024-07-18

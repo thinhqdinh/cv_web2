@@ -1,6 +1,6 @@
 ---
-title: Demand Planning
-subtitle: Supply and demand forecasting, production planning, supply chain optimization, ...
+title: In-flight Productivity
+subtitle: Business Communication Suite, Cloud Document Access, Virtual Meeting Optimization, ...
 layout: default
 modal-id: 2
 date: 2024-07-17

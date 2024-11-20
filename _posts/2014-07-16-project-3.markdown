@@ -1,5 +1,5 @@
 ---
-title: Price and Promotion Strategy
+title: Destination Readiness
 subtitle: Dynamic and Bundled Pricing, Loyalty Program Design, Promotion Strategy, ...
 layout: default
 modal-id: 3
