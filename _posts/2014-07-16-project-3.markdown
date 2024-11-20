@@ -1,6 +1,6 @@
 ---
 title: Destination Readiness
-subtitle: Dynamic and Bundled Pricing, Loyalty Program Design, Promotion Strategy, ...
+subtitle: Arrival Assistance, Meal Pre-ordering, Weather-based Itinerary Adjustment, ...
 layout: default
 modal-id: 3
 date: 2024-07-16
